@@ -221,7 +221,7 @@ public class Exchange
 		}
 	}
 	
-	/*
+	
 	public static void main(String[] args)
 	{
 		System.out.println("Testing");
@@ -599,5 +599,5 @@ public class Exchange
 			System.out.println("Old orders successfully unregistered");
 		}
 	}
-	*/
+	
 }
