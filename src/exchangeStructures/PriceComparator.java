@@ -4,14 +4,14 @@ import java.util.Comparator;
 
 import orderSpecs.Price;
 
-public class AntiPriceComparator implements Comparator<Price>
+public class PriceComparator implements Comparator<Price>
 {
 	@Override
 	public int compare(Price p1, Price p2)
 	{
 		if(p1.getPrice() > p2.getPrice())
 		{
-			return -1;
+			return 1;
 		}
 		else if(p1.getPrice() == p2.getPrice())
 		{
@@ -19,7 +19,7 @@ public class AntiPriceComparator implements Comparator<Price>
 		}
 		else
 		{
-			return 1;
+			return -1;
 		}
 	}
 }
